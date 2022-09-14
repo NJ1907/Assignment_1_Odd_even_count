@@ -1,0 +1,16 @@
+# Assigment submission by Nitish Jha
+# Topic: Write a Python program to count the number of even and odd numbers from a series of numbers.
+
+no = int(input("Enter a number :"))
+
+count_even = 0
+count_odd = 0
+
+for i in range(1,no+1):
+    if(i%2==0):
+        count_even=count_even+1
+    else:
+        count_odd=count_odd+1
+
+print("no of even is",count_even)
+print("no of odd is",count_odd)
